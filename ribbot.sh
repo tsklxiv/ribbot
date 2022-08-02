@@ -36,6 +36,8 @@ A simple and beautiful wrapper of curl
 "
 URL=$(gum input --prompt "Enter URL to request (Empty to quit the app) " --width 150 --placeholder "URL to request...")
 if [ "$URL" = "" ]; then
+  clear
+  printf "Goodbye!"
   exit 0
 fi
 METHOD=$(gum input --prompt "Enter request method " --value "GET" --placeholder "Request method...")
