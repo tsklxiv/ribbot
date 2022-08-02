@@ -14,7 +14,8 @@
 A simple, beautiful and interactive wrapper of `curl`
 
 [Getting started](#getting-started) •
-[Installation](#installation)
+[Installation](#installation) •
+[License](#license)
 
 </div>
 
@@ -24,9 +25,16 @@ A simple, beautiful and interactive wrapper of `curl`
 
 ## Installation
 
+Make sure you have [Go](https://go.dev/dl/) and [`gum`](https://github.com/charmbracelet/gum#installation) installed first, then:
+
 ```sh
 curl http://0x0.st/oeMb.sh > ribbot.sh
 chmod +x ribbot.sh
+./ribbot.sh
 ```
+
+## License
+
+MIT. See LICENSE for more details.
 
 </div>
