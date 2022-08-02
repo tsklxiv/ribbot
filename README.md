@@ -9,7 +9,7 @@
 
 <div align="center">
 
-<!-- <img src="quicktable_logo.png" alt="Quicktable logo; A 2x2 black grid with a yellow background"> -->
+<img src="ribbot.png" alt="Image of Ribbot from BattleBots">
 
 # ribbot
 
