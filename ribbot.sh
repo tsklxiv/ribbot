@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# ribbot - A simple, beautiful and interactive wrapper of curl
+# Copyright (c) 2022-present Dang Hoang Tuan (Tsuki) <tsukii@disroot.org>
+# This code is licensed under MIT license (see LICENSE.txt for details)
+
 BORDER_FOREGROUND=113 # Froggy green!
 
 # Add spinner to command and show output
