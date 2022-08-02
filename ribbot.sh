@@ -36,10 +36,10 @@ METHOD=$(gum input --prompt "Enter request method " --value "GET" --placeholder 
 if [ "$METHOD" = "POST" ]; then
   DATA=$(gum write --placeholder "Enter data to POST here... (Ctrl-D to finish)")
   if gum confirm "Do you want to use multipart/form-data POST? (for file upload, etc.)?"; then
-    curl -F "$DATA" "$URL" -L
+    curl -sSL -F "$DATA" "$URL"
   else
-    curl -d "$DATA" "$URL" -L
+    curl -sSL -d "$DATA" "$URL"
   fi
 else
-  curl -X "$METHOD" "$URL" -L
+  curl -sSL -X "$METHOD" "$URL"
 fi
