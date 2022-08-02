@@ -2,6 +2,13 @@
 
 BORDER_FOREGROUND=113 # Froggy green!
 
+# Add spinner to command and show output
+spin () {
+  # In this case we have to NOT use a double quote around $1 because
+  # That wouldn't make the spinner spins for some reason
+  gum spin --spinner moon --title "Curling..." --show-output -- $1
+}
+
 # Check if `gum` and `curl` is available
 if ! command -v gum > /dev/null; then
   printf "Ribbot requires gum to work. Please install it by using:\n"
@@ -36,10 +43,10 @@ METHOD=$(gum input --prompt "Enter request method " --value "GET" --placeholder 
 if [ "$METHOD" = "POST" ]; then
   DATA=$(gum write --placeholder "Enter data to POST here... (Ctrl-D to finish)")
   if gum confirm "Do you want to use multipart/form-data POST? (for file upload, etc.)?"; then
-    curl -sSL -F "$DATA" "$URL"
+    spin "curl -sSL -F $DATA $URL"
   else
-    curl -sSL -d "$DATA" "$URL"
+    spin "curl -sSL -d $DATA $URL"
   fi
 else
-  curl -sSL -X "$METHOD" "$URL"
+  spin "curl -sSL -X $METHOD $URL"
 fi
