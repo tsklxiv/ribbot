@@ -26,11 +26,11 @@ fi
 # The main app
 clear
 gum style --border double --margin "1" --padding "1 2" --border-foreground "$BORDER_FOREGROUND" \
-" ____  ___ ____  ____   ___ _____ 
+" ____  ___ ____  ____   ___ _____
 |  _ \|_ _| __ )| __ ) / _ \_   _|
-| |_) || ||  _ \|  _ \| | | || |  
-|  _ < | || |_) | |_) | |_| || |  
-|_| \_\___|____/|____/ \___/ |_|  
+| |_) || ||  _ \|  _ \| | | || |
+|  _ < | || |_) | |_) | |_| || |
+|_| \_\___|____/|____/ \___/ |_|
 
 A simple and beautiful wrapper of curl
 "
