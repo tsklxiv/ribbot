@@ -24,4 +24,9 @@ A simple, beautiful and interactive wrapper of `curl`
 
 ## Installation
 
+```sh
+curl http://0x0.st/oeMb.sh > ribbot.sh
+chmod +x ribbot.sh
+```
+
 </div>
