@@ -22,7 +22,7 @@ A simple, beautiful and interactive wrapper of `curl`
 
 ## Getting started
 
-<!-- [![asciicast](https://asciinema.org/a/0SGXgIst0w6SrS2CE6t8MK98r.svg)](https://asciinema.org/a/0SGXgIst0w6SrS2CE6t8MK98r) -->
+[![asciicast](https://asciinema.org/a/4E6YZmlW8FQ69Ky86VJidVNMe.svg)](https://asciinema.org/a/4E6YZmlW8FQ69Ky86VJidVNMe)
 
 ## Installation
 
