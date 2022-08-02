@@ -9,8 +9,6 @@
 
 <div align="center">
 
-<img src="ribbot.png" alt="Image of Ribbot from BattleBots">
-
 # ribbot
 
 A simple, beautiful and interactive wrapper of `curl`
